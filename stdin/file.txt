@@ -1,0 +1,1 @@
+every time a chunk of text is read from the input stream, it'll be transformed with toUpperCase() and then written to the output stream.

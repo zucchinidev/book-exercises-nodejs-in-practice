@@ -1,0 +1,1 @@
+Using several interleaved calls to console.time with different labels allows multiple benchmarks to be performed, which is perfect for exploring the performance of complex, nested asynchronous programs.
