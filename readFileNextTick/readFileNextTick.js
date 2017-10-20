@@ -1,4 +1,3 @@
-const EventEmitter = require('events').EventEmitter
 const fs = require('fs')
 let content
 
