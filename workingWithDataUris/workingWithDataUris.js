@@ -7,5 +7,5 @@ const uri = `data:${mime};${encoding},${data}`
 // flip the scenario, data URI to file
 const binaryData = uri.split(',')[1]
 
-const buf = new Buffer(data, 'base64')
+const buf = new Buffer(binaryData, 'base64')
 fs.writeFileSync('./secondmonkey.png', buf)
