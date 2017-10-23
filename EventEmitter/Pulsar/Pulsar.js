@@ -21,6 +21,12 @@ class Pulsar extends events.EventEmitter {
       }
     }, this.speed)
   }
+
+  stop () {
+    if (this.listeners('pulse').length === 0) {
+      throw new Error('No listeners have been added!')
+    }
+  }
 }
 
 const pulsar = new Pulsar(500, 5)
